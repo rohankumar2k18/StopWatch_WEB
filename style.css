@@ -46,5 +46,12 @@
 
 }
 
+#heading{
+  font-family: consolas, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
