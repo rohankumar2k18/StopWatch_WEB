@@ -1,0 +1,57 @@
+#mainContainer {
+  margin-top: 50px;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(17, 14, 14);
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+#timeContainer{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timeDisplay{
+  font-size: 48px;
+  font-family: consolas, monospace;
+  color: red;
+}
+
+.buttonPress{
+  font-weight: bold;
+  margin-left: 5px;
+  background-color: rgb(17, 14, 14);
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+  transition: color 0.3s ease;
+}
+
+.buttonPress:hover{
+  background-color: chocolate;
+  color: red;
+  cursor: pointer;
+
+}
+
+#heading{
+  font-family: consolas, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
